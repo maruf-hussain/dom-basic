@@ -63,3 +63,16 @@ const box = document.getElementById('comment-box');
 
 
 
+        //  github delete...............
+ document.getElementById('delete-confirme').addEventListener('keyup',function(event){
+    const text = event.target.value;
+    const deleteButton = document.getElementById('delete-btn');
+    if(text === 'delete'){
+        deleteButton.removeAttribute('disabled');
+        deleteButton.style.backgroundColor = 'lightgreen';  
+    }
+    else{
+        deleteButton.setAttribute('disabled', true);
+        deleteButton.style.backgroundColor = 'red';
+    }
+ });
