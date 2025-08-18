@@ -7,11 +7,12 @@ document.getElementById('green').addEventListener('click', function(){
 }); 
 
 document.getElementById('text-button').addEventListener('click',function(){
-    const inputText = document.getElementById('text-input').value;
+    const inputFeild = document.getElementById('text-input');
+    const inputText = inputFeild.value;
     const textDisplay = document.getElementById('text-display');
     textDisplay.innerText = inputText;
     textDisplay.style.color = 'red';
     textDisplay.style.fontSize = '30px';
-    inputText.value = '';
+    inputFeild.value = '';
     
 })
