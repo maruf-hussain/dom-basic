@@ -43,4 +43,23 @@ const box = document.getElementById('comment-box');
             commentInputFeild.value = '';
          })
 
+    
+    
+    
+    // new element add
+         document.getElementById('comment-button').addEventListener('click',function(){
+            const commentInputFeild = document.getElementById('comment-input');
+            const commentInputText = commentInputFeild.value;
+            const commentDisplay = document.getElementById('comment-box'); 
+            p = document.createElement('p');
+            p.innerText = commentInputText;
+            commentDisplay.appendChild(p);
+            commentDisplay.style.color = 'red';
+            commentDisplay.style.fontSize = '20px';
+            commentDisplay.style.textAlign = 'center';
+            commentInputFeild.value = '';
+         })
+
+
+
 
