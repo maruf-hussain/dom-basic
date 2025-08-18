@@ -8,9 +8,9 @@
 //     section.style.borderRadius = '20px'
 // };
 
-// const brand = document.getElementById('brand');
-// brand.style.backgroundColor = 'darkblue'
-
+// const box = document.getElementById('comment-box');
+// box.style.backgroundColor = 'darkblue'
+// box.style.border = '1px solid red';
 
 
 
