@@ -1,0 +1,8 @@
+{
+    "editor.fontLigatures": false,
+    "editor.fontSize": 24,
+    "editor.fontFamily": "Open Sans",
+    "diffEditor.wordWrap": "on",
+    "terminal.integrated.fontFamily": "Consolas",
+    "terminal.integrated.fontSize": 20,
+}
